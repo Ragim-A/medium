@@ -1,0 +1,6 @@
+FROM openjdk:12-jdk-alpine
+
+WORKDIR /code/
+COPY ./build/libs/demo.jar .
+
+ENTRYPOINT ["java", "-jar", "demo.jar"]
