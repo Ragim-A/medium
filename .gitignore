@@ -25,3 +25,5 @@ out/
 
 ### VS Code ###
 .vscode/
+.gitsecret/keys/random_seed
+secure.txt
